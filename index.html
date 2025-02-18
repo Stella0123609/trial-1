@@ -4,8 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trial 1</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+ <header>
+    <nav>
+     <div class="nav-logo"><a href="#">Baim.Travel</a></div>
+     <ul class="nav-links">     
+       <li>
+        <a href="Home">Home</a>
+       </li>
+       <li> 
+        <a href="About">About us</a>
+       </li>
+       <li> 
+        <a href="contact us">Contact us</a>
+       </li>
+       <li> 
+        <a href="Features">Features</a>
+       </li>
+     </ul>
+      <div class="search-box">
+        <input type="search" name="search" id="search" placeholder="search" />
+        <i class="ri search-line"></i>
+      </div>
+    </nav>
+ </header> 
+
+
+ <main class="container">
+   <section class="container-left">
+    <div class="content">
+       <h1>
+        Discoveing <br>
+        The world.
+       </h1>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum corporis ab doloremque deserunt, nihil, atque facere cumque pariatur et debitis culpa dolores impedit animi accusantium ad similique obcaecati totam?
+       </p>
+       
+      <div class="btns">
+        <button class="read-more">Read More</button>
+        <button class="our-blogs">Our Blogs</button>
+      </div>
+
+      <div class="chevrons"> 
+        <span class="left-chevrons">
+            <i class="ri-arrow-left-s-line"></i>
+        </span>
+        <span class="right-chevrons">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+      </div>
+    </div>
+   </section>
+
+   <section>
+    <form>
+        <h4>
+            Where do you want to go?
+        </h4>
+        <div class="form-group">
+            <label for="destination"></label>
+           <input type="text" placeholder="Enter you destination" required />
+        </div>
+
+    <div class="form-group">
+        <label for="date"></label>
+        <input type="date" name="date" id="date" required />
+    </div>
+
+    <input 
+      class="submit-travel"
+      type="submit"
+      value="check travel package"
+    />
+    </form>
+   </section>
+ </main>
+
+
+ <footer>
+    <div class="button-tracker">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+ </footer>
+
+
 </body>
 </html>

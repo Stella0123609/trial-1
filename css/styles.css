@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: -o-linear-gradient(rgba(0,0,0,0,4), rgba(0,0,0,0,4))
+url(../images/cliff-5954980_1280.jpg) no-repeat center center / cover;
+height: 100vh;
+} 
+ header{
+    position: relative;
+    z-index: 100;
+ }
+header nav{
+    background-color: rgba(0,0,0,0,0.15);
+    backdrop-filter:blur(10px);
+}
+nav{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: #33333300;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo a{
+    font-size: 32px;
+    color:black;
+    text-decoration: none;
+    font-weight:800 ;
+    
+}
+.nav-links{
+     display: flex;
+     list-style: none;
+     gap: 3rem;
+}
+.nav-links a{
+    position: relative;
+    font-size: 24px;
+    color: black;
+    text-decoration:none ;
+    font: weight 600px; 
+    padding: 2px;
+}
